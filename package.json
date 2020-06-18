@@ -1,0 +1,32 @@
+{
+  "name": "node-js-getting-started",
+  "version": "1.0.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exorunltd/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "Exorun",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exorunltd/node-js-getting-started/issues"
+  },
+  "homepage": "https://github.com/exorunltd/node-js-getting-started#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "request": "^2.88.2",
+    "tape": "^4.13.2"
+  }
+}
